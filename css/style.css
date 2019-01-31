@@ -580,7 +580,7 @@ li {
 }
 
 .hero-slider .content.style h2 {
-  font-size: 60px;
+  font-size: 35px;
 }
 
 @media (max-width: 767px) {
@@ -3563,7 +3563,7 @@ li {
 
 .carousel-inner img {
   width: 100%;
-  max-height: 460px
+  max-height: 600px
 }
 
 .carousel-control {
@@ -3638,8 +3638,9 @@ li {
 }
 
 .header-text h3 span {
-  background-color: #000;
+  background-color: #fff;
   padding: 15px;
+  color: #000;
 }
 
 .btn-min-block {
