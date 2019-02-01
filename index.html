@@ -37,7 +37,19 @@
                         <div class="logo">
                             <figure>
                                 <a href="index.html">
-                                    <img src="images/trade/logo.jpg" alt="" width="150">
+                                    <img id="image" src="images/trade/white.png" alt="" width="185">
+                                    <script>
+                                        var imageSources = ["images/trade/white.png", "images/trade/black.png"];
+
+                                        var index = 0;
+                                        setInterval(function () {
+                                            if (index === imageSources.length) {
+                                                index = 0;
+                                            }
+                                            document.getElementById("image").src = imageSources[index];
+                                            index++;
+                                        }, 5000)
+                                    </script>
                                 </a>
                             </figure>
                         </div>
@@ -60,10 +72,10 @@
                                     <div class="icon-box">
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
-                                    <strong>Почта:</strong>
-                                    <br>
-                                    <a href="mailto:our_era@yahoo.com">our_era@yahoo.com
-                                    </a>
+                                    <!--<strong>Почта:</strong>-->
+                                    <!--<br>-->
+                                    <a href="mailto:our_era@yahoo.com">our_era@yahoo.com</a><br>
+                                    <a href="mailto:Ourera.kz@gmail.com">Ourera.kz@gmail.com</a>
                                 </li>
                                 <li class="item">
                                     <div class="icon-box">
