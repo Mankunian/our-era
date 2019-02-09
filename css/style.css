@@ -3660,3 +3660,13 @@ li {
   background-color: #fff;
   border-color: #fff;
 }
+
+
+
+.carousel-inner{
+  position: relative;
+  width: 1000px;
+  float: none;
+  overflow: hidden;
+  margin: 0 auto;
+}

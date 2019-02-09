@@ -106,8 +106,8 @@
 	// Hero Slider
 	$('.hero-slider').slick({
 		slidesToShow: 1,
-		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplay: false,
+		autoplaySpeed: 3000,
 		infinite: true,
 		speed: 300,
 		dots: true,
@@ -124,9 +124,9 @@
 	});
 	// Item Slider
 	$('.items-container').slick({
-		infinite: true,
+		infinite: false,
 		arrows: true,
-		autoplay: true,
+		autoplay: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		responsive: [
@@ -148,9 +148,9 @@
 	});
 	// Testimonial Slider
 	$('.testimonial-carousel').slick({
-		infinite: true,
+		infinite: false,
 		arrows: false,
-		autoplay: true,
+		autoplay: false,
 		slidesToShow: 2,
 		dots: true,
 		slidesToScroll: 2,
