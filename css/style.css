@@ -327,6 +327,7 @@ li {
 
 .header-uper .right-side {
   float: right;
+  padding: 23px;
 }
 
 @media (max-width: 991px) {
